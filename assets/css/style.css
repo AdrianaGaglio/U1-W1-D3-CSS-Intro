@@ -2,12 +2,15 @@
 
 body {
   margin: 0;
+}
+
+p {
   font-family: "Lora", serif;
+  font-size: 0.9em;
 }
 
 header {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 header img {
@@ -31,7 +34,7 @@ header p span {
 }
 
 main {
-  width: 800px;
+  width: 700px;
   margin-inline: auto;
 }
 
@@ -56,10 +59,32 @@ main div {
   padding-left: 20px;
 }
 
+main div p {
+  margin-top: 0px;
+}
+
 h4 {
   color: orangered;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
 
 main section:first-child {
   margin-bottom: 50px;
+}
+
+h3 {
+  border-bottom: 0.1em solid lightblue;
+  padding-bottom: 20px;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1em;
+  margin: 30px 0 20px 0;
+}
+
+section {
+  margin-top: 50px;
 }
