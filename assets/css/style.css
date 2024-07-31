@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap");
 
 body {
   margin: 0;
+  font-family: "Lora", serif;
+  color: #333333;
 }
 
-p {
-  font-family: "Lora", serif;
-  font-size: 0.9em;
+p,
+li {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 header {
@@ -14,7 +18,7 @@ header {
 }
 
 header img {
-  width: 200px;
+  width: 150px;
 }
 
 header > div {
@@ -22,14 +26,20 @@ header > div {
 }
 
 header p {
-  background-color: lightgoldenrodyellow;
+  background-color: #fdfbf1;
   margin: 0;
-  padding: 15px;
-  border-top: 0.1em solid yellow;
+  padding: 15px 0;
+  border-top: 0.1em solid #ffd877;
+  color: #004d4c;
 }
 
 header p span {
   text-transform: uppercase;
+  font-weight: 600;
+}
+
+a {
+  color: #107777;
   font-weight: 600;
 }
 
@@ -47,15 +57,16 @@ h1 {
 main img {
   border-radius: 20px;
   width: 100%;
+  box-shadow: 3px 3px 3px lightgray;
 }
 
 .image-caption {
   text-align: center;
-  color: lightslategray;
+  color: #999999;
 }
 
 main div {
-  border-left: 0.1em solid yellow;
+  border-left: 1px solid #ffd877;
   padding-left: 20px;
 }
 
@@ -64,7 +75,7 @@ main div p {
 }
 
 h4 {
-  color: orangered;
+  color: #b5460f;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -74,17 +85,22 @@ main section:first-child {
 }
 
 h3 {
-  border-bottom: 0.1em solid lightblue;
+  border-bottom: 1px solid #c4f3f2;
   padding-bottom: 20px;
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-weight: 700;
+  font-style: normal;
 }
 
 h5 {
-  font-size: 1em;
+  font-size: 1rem;
   margin: 30px 0 20px 0;
 }
 
 section {
   margin-top: 50px;
+}
+
+li {
+  margin-bottom: 1em;
 }
