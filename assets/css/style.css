@@ -46,6 +46,7 @@ a {
 main {
   width: 700px;
   margin-inline: auto;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -103,4 +104,10 @@ section {
 
 li {
   margin-bottom: 1em;
+}
+
+video {
+  display: block;
+  margin-inline: auto;
+  border-radius: 10px;
 }
